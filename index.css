@@ -1,0 +1,29 @@
+body {
+  font-family: 'Libre Baskerville', serif;
+  color: white;
+}
+
+h2 {
+  font-size: 300px;
+}
+
+.banner {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://res.cloudinary.com/dmopnsyae/image/upload/v1590753820/A2W4FN6UNTJE4N62BZCAEANIII.jpg);
+}
+
+.content {
+  height: 100%;
+}
+
+a {
+  background: white;
+  color: black;
+  transition: ease 0.3s;
+}
+
+a:hover {
+  color: white;
+  background: rgba(255,255,255,0.4);
+  text-decoration: none;
+}
